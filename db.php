@@ -1,10 +1,10 @@
 <?php
-$host = "localhost"
-$user = "root"
-$password = "brian"
-$database = "task_tracker"
-$conn = new mysqli ($host, $user, $password, $database)
+$host = "localhost";
+$user = "root";
+$password = "brian";
+$database = "task_tracker";
+$conn = new mysqli ($host, $user, $password, $database);
 if ($conn -> connect_error){
-    die ("Connection failed". $conn->connect_error)
+    die ("Connection failed". $conn->connect_error);
 }
 ?>
